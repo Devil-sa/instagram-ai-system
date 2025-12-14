@@ -40,7 +40,7 @@ Generate:
 
   try {
     const res = await fetch(
-      "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=AIzaSyDRJ3Y7VgLDZOtrIY4xyzke9UuK0YIPIKk",
+      "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyDRJ3Y7VgLDZOtrIY4xyzke9UuK0YIPIKk",
       {
         method: "POST",
         headers: {
